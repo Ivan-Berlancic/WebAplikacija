@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+#cart {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#cartItem {
+  margin-top: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.row-img img {
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#total {
+  font-weight: bold;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.fa-trash {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add any additional styles based on your design */

@@ -1,0 +1,89 @@
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Customize shadow properties */
+}
+
+#map {
+    height: 300px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
+
+.custom-header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 40px; /* Add padding to create space around the box shadow */
+}
+
+.gallery-item {
+    margin-bottom: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cart {
+    position: relative;
+    font-size: 15px;
+}
+
+.cartAmount {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .shop {
+        grid-template-columns: repeat(1, 350px);
+    }
+}
+
+.item {
+    border: 2px solid #212529;
+    border-radius: 3px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    font-size: 22px;
+}
+
+.rounded-pill {
+    border-radius: 50px; /* You can adjust the value to control the roundness */
+    padding: 0.2rem 0.6rem; /* Adjust padding for desired appearance */
+}
